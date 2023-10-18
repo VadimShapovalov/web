@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url(./fonts/gilroy-semibold.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(./fonts/gilroy-bold.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(./fonts/gilroy-medium.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./fonts/gilroy-regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    margin-left: 375px ;
+    margin-right: 375px;
+    width: 1170px;
+    display: flex;
+    margin-top: 40px;
+    /* padding-top: 45px; */
+    justify-content: space-between;
+    align-items: center;
+}
+.Header_menu {
+    width: 533px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    color: #000;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.home {
+    color: #F25822;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.Top {
+    margin-top: 89px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.top_info {
+    margin-left: 375px;
+}
+h1 {
+    width: 522px;
+    height: 222px;
+
+    color: #000;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 0;
+}
+p {
+    width: 466px;
+    height: 48px;
+    color: #888;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.top_button {
+    width: 374px;
+    height: 94px;
+    display: flex;
+    gap: 72px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.start {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    color: #FFF;
+    border: 0;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.watch {
+    color: #AAA;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background: #FFF;
+    border: 0;
+}
+.Logo {
+    width: 1240px;
+    height: 158px;
+    margin-top: 38px;
+    margin-bottom: 47px;
+    margin-left: 345px;
+}
