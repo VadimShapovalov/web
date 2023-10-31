@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(./fonts/Lato-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Lato-Black';
+    src: url(./fonts/Lato-Black.ttf);
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(./fonts/Lato-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Lato-Light';
+    src: url(./fonts/Lato-Light.ttf);
+    font-style: normal;
+    font-weight: 300;
+}
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+.header-wrapper {
+    background-color: #222222;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 41px;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.top-wrapper {
+    background-color: #F1E4E6;
+}
+.top {
+    display: flex;
+    gap: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+}
+.big-man {
+    display: block;
+    margin: 0;
+}
+.top-title {
+    display: flex;
+    flex-direction: column;
+    height: 93px;
+    border-left: solid 12px #F16D7F;
+    padding-left: 16px;
+    margin-top: 290px;
+}
+.title-l {
+    font-family: 'Lato-Black';
+    color: #222;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+}
+.title-r1 {
+    font-family: 'Lato-Bold';
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+}
+.title-r2 {
+    font-family: 'Lato-Bold';
+    color: #F16D7F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: 2fr 1fr;
+    gap: 30px;
+    width: 1140px;
+    height: 470px;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    fill: rgba(33, 22, 22, 0.70);
+}
+.card {
+    position: relative;
+}
+.card2 {
+    position: relative;
+    grid-column-start: span 3;
+}
+.card-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-text-top {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card-text-bot {
+    color: #F16D7F;
+    font-family: 'Lato-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.middle-title {
+    color: #222;
+    font-family: 'Lato-Regular';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 96px;
+    margin-bottom: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.middle-text {
+    color: #9F9F9F;
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+.middle-pictures-wrapper {
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+}
+.middle-pictures {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+.pic {
+    /* margin: 0;
+    padding: 0; */
+}
+.pic-text {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    margin: 0;
+    padding: 0;
+}
+.pic-text-h {
+    color: #000;
+    font-family: 'Lato-Regular';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.pic-text-p1 {
+    color: #5D5D5D;
+    font-family: 'Lato-Light';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+    padding: 16px 0px;
+    width: 315px;
+}
+.pic-text-p2 {
+    color: #F16D7F;
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.button-wrapper {
+display: flex;
+justify-content: center;
+}
+.button {
+    color: #F26376;
+    border: solid 2px #FF6A6A;
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 39px 14px;
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
