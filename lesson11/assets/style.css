@@ -638,6 +638,7 @@ img {
 }
 .footer__block {
     max-width: 768px;
+    padding: 0 32px;
 }
     
 }
